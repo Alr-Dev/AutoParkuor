@@ -12,3 +12,6 @@ local buttonGui = nil
 
 -- Tempo de movimento entre waypoints (em segundos)
 local moveTime = 1  -- Altere conforme necessário
+
+local auto2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Alr-Dev/AutoParkuor/main/main.lua",true))()
+auto2 = true
