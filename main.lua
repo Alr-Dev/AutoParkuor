@@ -1,16 +1,4 @@
-local Players = game:GetService("Players")
-local TweenService = game:GetService("TweenService")
 
-local player = Players.LocalPlayer
-local waypoints = {}  -- List of routes defined by the player
-local currentRouteIndex = 1
-local currentWaypointIndex = 1
-local isIAActive = false
-local isMoving = false
-local humanoid = nil
-local tween = nil
-
--- Rest of the existing code remains unchanged...
 
 -- Function to display a loading screen
 local function showLoadingScreen()
